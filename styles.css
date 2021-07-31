@@ -1,1 +1,73 @@
 /* Write your CSS here! */
+body{
+    margin: 8px;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#mainHeading {
+    color: red;
+}
+
+p.funParagraph {
+    color: green;
+}
+
+#mainHeading{
+    border-radius: 25px;
+    background-color: lightcoral;
+    text-align: center;
+    text-shadow: 1px 3px darkred;
+}
+
+#preface{
+    padding-left: 10px;
+    border-radius: 25px;
+    background-color:  rgb(135, 235, 231);
+    box-shadow: 5px 10px aqua;
+    
+}
+
+.start{
+    border-radius: 20px;
+    padding-left: 25px;
+    background-color: mediumturquoise;
+    color: darkgreen;
+    box-shadow: 5px 10px aqua;
+    text-align: center;
+}
+
+img.moviesTV{
+    float: right;
+    clear: left;
+    margin-left: 10px;
+}
+
+.moviesTV{
+    border-radius: 50px;
+    background-color: lemonchiffon;
+    
+}
+
+.podcasts{
+    border-radius: 50px;
+    background-color: plum;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.internet{
+    border-radius: 50px;
+    background-color: paleturquoise;
+}
+
+.flexOption {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-basis: auto;
+}
+
+
