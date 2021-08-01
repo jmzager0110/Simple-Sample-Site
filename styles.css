@@ -13,22 +13,35 @@ p.funParagraph {
     color: green;
 }
 
+h3{
+    text-align: center;
+    font-size: 125%;
+}
+
 #mainHeading{
     border-radius: 25px;
     background-color: lightcoral;
     text-align: center;
     text-shadow: 1px 3px darkred;
+    margin-left: 20%;
+    margin-right: 20%;
+    
 }
 
 #preface{
+    text-align: center;
     padding-left: 10px;
     border-radius: 25px;
-    background-color:  rgb(135, 235, 231);
+    background-color:  rgb(128, 226, 221);
     box-shadow: 5px 10px aqua;
+    margin-left: 10%;
+    margin-right: 10%;
     
 }
 
 .start{
+    margin-left: 25%;
+    margin-right: 25%;
     border-radius: 20px;
     padding-left: 25px;
     background-color: mediumturquoise;
@@ -37,28 +50,34 @@ p.funParagraph {
     text-align: center;
 }
 
-img.moviesTV{
-    float: right;
-    clear: left;
-    margin-left: 10px;
+img.memes{
+    display: table;
+    width: 40%;
+    padding: 2.5px;
 }
 
 .moviesTV{
     border-radius: 50px;
-    background-color: lemonchiffon;
-    
+    background-color: rgb(128, 226, 221);
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 33%;
 }
 
 .podcasts{
     border-radius: 50px;
-    background-color: plum;
-    padding-left: 20px;
-    padding-right: 20px;
+    background-color:  #e9afaf;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 33%;
 }
 
 .internet{
     border-radius: 50px;
-    background-color: paleturquoise;
+    background-color: rgb(128, 226, 221);
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 33%;
 }
 
 .flexOption {
@@ -68,6 +87,16 @@ img.moviesTV{
     justify-content: space-evenly;
     align-items: flex-start;
     flex-basis: auto;
+    gap: 20px;
 }
+
+footer{
+    border-radius: 15%;
+    text-align: center;
+    background-color:  #e9afaf;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 
 
