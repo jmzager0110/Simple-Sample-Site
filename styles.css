@@ -5,11 +5,11 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
-#mainHeading {
+#mainHeading{
     color: red;
 }
 
-p.funParagraph {
+p.funParagraph{
     color: green;
 }
 
