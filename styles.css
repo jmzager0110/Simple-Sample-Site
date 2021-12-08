@@ -3,14 +3,12 @@ body{
     margin: 8px;
     display: block;
     font-family: 'Courier New', Courier, monospace;
+    background-color: #cfe3d5;
+
 }
 
-#mainHeading{
-    color: red;
-}
-
-p.funParagraph{
-    color: green;
+p.intro{
+    color: #0a453f;
 }
 
 h3{
@@ -18,11 +16,16 @@ h3{
     font-size: 125%;
 }
 
-#mainHeading{
-    border-radius: 25px;
-    background-color: lightcoral;
+h4{
     text-align: center;
-    text-shadow: 1px 3px darkred;
+}
+
+#mainHeading{
+    color:;
+    border-radius: 25px;
+    background-color: #9fc7ac;
+    text-align: center;
+    text-shadow: 1px 3px #5a996d;
     margin-left: 20%;
     margin-right: 20%;
     
@@ -32,7 +35,7 @@ h3{
     text-align: center;
     padding-left: 10px;
     border-radius: 25px;
-    background-color:  rgb(128, 226, 221);
+    background-color:  #49e396;
     box-shadow: 5px 10px aqua;
     margin-left: 10%;
     margin-right: 10%;
@@ -44,37 +47,36 @@ h3{
     margin-right: 25%;
     border-radius: 20px;
     padding-left: 25px;
-    background-color: mediumturquoise;
+    background-color: #2fc47a;
     color: darkgreen;
     box-shadow: 5px 10px aqua;
     text-align: center;
 }
 
-img.memes{
-    display: table;
-    width: 40%;
-    padding: 2.5px;
+img.secthreeimages{
+    height: 150px;
+    width: 25%;
 }
 
-.moviesTV{
+.subsec1{
     border-radius: 50px;
-    background-color: rgb(128, 226, 221);
+    background-color: #42db70;
     padding-left: 10px;
     padding-right: 10px;
     max-width: 33%;
 }
 
-.podcasts{
+.subsec2{
     border-radius: 50px;
-    background-color:  #e9afaf;
+    background-color:  #20c99a;
     padding-left: 10px;
     padding-right: 10px;
     max-width: 33%;
 }
 
-.internet{
+.subsec3{
     border-radius: 50px;
-    background-color: rgb(128, 226, 221);
+    background-color: #42db70;
     padding-left: 10px;
     padding-right: 10px;
     max-width: 33%;
@@ -91,9 +93,9 @@ img.memes{
 }
 
 footer{
-    border-radius: 15%;
+    border-radius: 45%;
     text-align: center;
-    background-color:  #e9afaf;
+    background-color:  #5a996d;
     margin-left: 10%;
     margin-right: 10%;
 }
